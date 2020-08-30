@@ -1,0 +1,133 @@
+
+        body{
+    background-color:white;
+    color:black;
+    text-align: center;
+    font:16px sans-serif;
+    line-height:2em;
+    }
+
+    .container{
+    width:80%;
+    margin:auto;
+    }
+
+    a{
+    text-decoration:none;
+    color: #000;
+    }
+
+    a:hover{
+    color:blue;
+    }
+
+    .box-1{
+    color:black;
+    background-color:#2ecc71;
+    padding:5px;
+    text-align: center;
+    border-radius: 5px;
+    }
+    .box-1 h1{
+    text-align:center;
+    right:20px;
+    font-weight:700;
+    font-style:oblique;
+    }
+
+    .box-1 h2{
+    text-align: center;
+    position:relative;
+    up:100px;
+    }
+
+    .box-2, h2{
+    text-align:center;
+    font-style:italic;
+    font-size: 27px;
+    font-weight: bold;
+    }
+    input{
+      margin-left: 20px;
+      height: 40px;
+      width: 200px;
+      border-radius: 10px;
+      border-color: #2ecc71;
+      font-size: 16px;
+    }
+    .aligncenter{
+    text-align:center;
+    }
+
+    .aligncente{
+        text-align:center;
+    }
+
+    hr{
+    border-color: green;
+    }
+
+    .button{
+    background-color:black;
+    font-size:20px;
+    color:white;
+    padding:10px 15px;
+    left:35%;
+    top:50px;
+    text-align: center;
+    }
+
+
+
+#grass{
+  width: 100%;
+  float: right;
+}
+    .clr{
+    clear:both;
+    }
+    #calc{
+      cursor: pointer;
+      text-align: center;
+      border-radius: 4%;
+      height: 50px;
+      box-shadow: 1px 2px black;
+    }
+    #calc:hover{
+      background-color: #2ecc71;
+    }
+    h3, p {
+      display: inline;
+      margin-bottom: 60px;
+      text-align: center;
+      margin-top: 60px;
+      padding: 60, 30;
+    }
+    #saved{
+      padding-top: 4rem;
+      font-size: 3rem;
+      color: #2ecc71;
+      display: flex;
+    }
+    #savings{
+      padding-top: 4rem;
+      font-size: 3rem;
+      color: #2ecc71;
+      display: flex;
+      line-height: 70px;
+    }
+    .iop h2{
+    font:30px sans-serif;
+    color:black;
+    alignment: centered;
+    right:50%;
+    line-height: 1.5em;
+    }
+
+    footer{
+      color: #2ecc71;
+      text-align: left;
+      width: 100%;
+      height: 150px;
+      background-color: #2ecc71;
+    }
