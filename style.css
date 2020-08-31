@@ -5,11 +5,26 @@
     text-align: center;
     font:16px sans-serif;
     line-height:2em;
+    margin-top: 0;
+    }
+    .logo{
+      align-content: left;
+      align-self: left;
+      align-items: left;
+      text-align: left;
+      width: 5%;
+      height: 5%;
+      margin-left: 0;
+      padding-left: 0;
+      border-left: 0;
+      margin-right: 95%;
+      margin-top: 0;
     }
 
     .container{
     width:80%;
     margin:auto;
+    margin-top: 0;
     }
 
     a{
@@ -64,7 +79,7 @@
     }
 
     hr{
-    border-color: green;
+    border-color: #2ecc71;
     }
 
     .button{
@@ -122,6 +137,15 @@
     alignment: centered;
     right:50%;
     line-height: 1.5em;
+    }
+    p{
+      font-size: 20px;
+    }
+    .grassJPG{
+      margin-bottom: 0px;
+      bottom: 0;
+      width: 100%;
+      font-weight: 570;
     }
 
     footer{
