@@ -3,10 +3,12 @@
 	<head>
 		<title>Renewable Energy Calculator</title>
 		<link rel="stylesheet" type="text/css" href="./style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="flat.ico">
+
 	</head>
 
 <body>
-
+	<!--<img src="sustainability.png" class="logo">-->
 	<div class="container" rounded>
 		<div class="box-1">
 		<h1>Renewable Energy Calculator</h1>
@@ -17,25 +19,25 @@
 
 
 <div class="box-2">
-<h2>Find out how long it'll be until you break even</h2>
+<h2>Find out how long it'll be until you break-even from your new clean energy!</h2>
 <hr>
 <br>
 <form class="my-form">
 <div class="form-group">
 <label>Total US dollars paid for installation of your renewable energy source :</label>
-<input id="costOfCost" class="costOfCost" type="number" name="number" placeholder= "Enter a number">
+<input id="costOfCost" class="costOfCost" type="number" name="number" placeholder= "Enter a number" required>
 </div>
 <br>
 <div class="form-group">
 <label>Regular Monthly Energy Bill Price</label>
-<input id="bill" type="number"  name="number" placeholder= "Enter a number">
+<input id="bill" type="number"  name="number" placeholder= "Enter a number" required>
 </div>
 <br>
 <input onclick="yearsUntilPayoff()" id="calc" class="button" type="text" value="Calculate" name="" readonly>
 </form>
 
 <div>
-<h3 id="savings"><p id= saved></p></h3>
+<h3 id="savings">Calculation: <p id= saved></p></h3>
 </form>
 </div>
 </div>
@@ -58,11 +60,26 @@
 <br>
 
 <div class="iop">
-<h2>If your purchase hasn't paid off yet, don't be discouraged, use this calculator a few months later to see a more positive result. You will see that not only is renewable energy cost-effective, but also much better for our environment. Follow #renewableenergy on instagram to see how others are making life changing renewable energy installments!</h2>
+<div class="devo">
+	<h1>Make Extra Money From Using Solar Energy</h1>
+		<p>You can make extra money by selling your SREC's once your Solar Panels are paid off! An SREC stands for Solar Renewable Energy Credit.
+			SREC's are earned as an additional benefit for using clean energy. You can estimate how many SREC's you can earn by multiplying the kilowatt size of the system by 1.2.
+			 You earn one SREC for every 1,000 kilowatt hours produced by your system. Each SREC can be worth upwards of $400 in certain states!
+			There are upfront incentives including 30% federal investment tax credit and $1,000 in local rebates that can cut down the cost!
+			</p>
+	<h1>Our Impact</h1>
+		<p>Alternative energy sources that don't cause pollution are a great way to benefit our Earth and create a positive long-term impact! According to <a href="epa.gov">The Environmental Protection Agency</a> 31% of our total US greenhouse gas emissions come from electricity generation. 
+			We need to reduce this by reducing fossil fuels. 
+		</p>
+	<h1>How Do We Calculate?</h1>
+		<p>With the help of the Renewable Energy Calculator you can see how soon your investment will pay off. Our calculation takes into account the installment cost and divides it by the annual bill of non-renewable energy
+			to find the amount of time it will take for your energy source to break-even. Our calculator assumes that your renewable energy source covers 100% of your energy bill.
+		</p>
 </div>
-<footer>
-<p>Im the footer</p>
-</footer>
+</div>
+<img src="animatedGrass.jpg" class="grassJPG">
+<p><div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></p>
+
 </div>
 <script src="./main.js"></script>
 </body>
