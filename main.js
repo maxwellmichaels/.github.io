@@ -5,7 +5,7 @@ function yearsUntilPayoff () {
   annualBill = bill * 12;
 let breakEven = install / annualBill;
 roundEven = Math.round(breakEven)
-if (bill > 0 && install > 0){
+if (bill >= 0 && install >= 0){
 document.getElementById('saved').innerHTML = 'You are ' + roundEven + ' years away from break-even on your renewable energy purchase';
 }
 };
